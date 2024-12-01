@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos | Cooperativa Bancaria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .product-card {
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-10px);
+    }
+    .btn-custom {
+      background-color: #6a4c9c;
+      color: white;
+    }
+    .btn-custom:hover {
+      background-color: #5e3b88;
+    }
+  </style>
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center mb-5">Nuestros Productos</h1>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="img/Cuenta-corriente.png" class="card-img-top" alt="Cuenta Corriente">
+          <div class="card-body">
+            <h5 class="card-title">Cuenta Corriente</h5>
+            <p class="card-text">Una cuenta corriente digital 100% online, sin costos de apertura ni mantención.</p>
+            <a href="#" class="btn btn-custom w-100">Más Información</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="img/creditos-personales.png" class="card-img-top" alt="Créditos">
+          <div class="card-body">
+            <h5 class="card-title">Créditos Personales</h5>
+            <p class="card-text">Accede a crédito al instante, para lo que necesites, sin trámites complicados.</p>
+            <a href="#" class="btn btn-custom w-100">Más Información</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="img/prestamos-hipotecarios.png" class="card-img-top" alt="Préstamos Hipotecarios">
+          <div class="card-body">
+            <h5 class="card-title">Préstamos Hipotecarios</h5>
+            <p class="card-text">Tu oportunidad de tener la casa de tus sueños con tasas accesibles y flexibles.</p>
+            <a href="#" class="btn btn-custom w-100">Más Información</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
